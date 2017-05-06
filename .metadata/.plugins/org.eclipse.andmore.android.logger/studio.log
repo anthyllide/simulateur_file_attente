@@ -1,0 +1,141 @@
+2017-04-27 09:40:57,011 [main] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2017-04-27 09:40:57,012 [main] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2017-04-27 09:40:57,018 [main] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2017-04-27 09:40:57,021 [main] DEBUG class java.lang.Class - Andmore Plugin started.
+2017-04-27 09:40:59,698 [main] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2017-04-27 09:40:59,806 [main] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2017-04-27 09:40:59,831 [main] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2017-04-27 09:40:59,838 [main] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2017-04-27 09:40:59,846 [main] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2017-04-27 09:40:59,846 [main] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2017-04-27 09:40:59,862 [main] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2017-04-27 09:40:59,862 [main] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2017-04-27 09:41:05,238 [main] DEBUG class java.lang.Class - Starting DDMS facade using listener...
+2017-04-27 09:41:05,253 [main] DEBUG class java.lang.Class - DDMS facade started using listener.
+2017-04-27 09:41:08,627 [Worker-1] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2017-04-27 09:41:08,630 [Worker-4] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2017-04-27 09:41:09,678 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_22 Status: OFF
+2017-04-27 09:41:09,690 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_22 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2017-04-27 09:41:09,921 [Worker-1] INFO  Studio for Android - Added instance Nexus_5_API_22 using default emulator definitions 
+2017-04-27 09:41:09,926 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_6_API_19 Status: OFF
+2017-04-27 09:41:09,952 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_6_API_19 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2017-04-27 09:41:09,954 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_6_API_19 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2017-04-27 09:41:09,955 [Worker-1] INFO  Studio for Android - Added instance Nexus_6_API_19 using default emulator definitions 
+2017-04-27 09:41:09,968 [Worker-1] DEBUG Studio for Android - Device connected: LGE975e1140d94
+2017-04-27 09:41:10,712 [Worker-4] ERROR class org.eclipse.andmore.android.DDMSFacade - Error executing shell command getprop at device LGE975e1140d94
+com.android.ddmlib.AdbCommandRejectedException: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+	at com.android.ddmlib.AdbHelper.setDevice(AdbHelper.java:861)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:450)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:381)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:352)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:613)
+	at org.eclipse.andmore.android.DDMSFacade.executeShellCmd(DDMSFacade.java:814)
+	at org.eclipse.andmore.android.DDMSFacade.execRemoteApp(DDMSFacade.java:781)
+	at org.eclipse.andmore.android.DDMSFacade.getDeviceProperties(DDMSFacade.java:851)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.createInstance(HandsetPlugin.java:126)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.access$0(HandsetPlugin.java:122)
+	at org.eclipse.andmore.android.handset.HandsetPlugin$1.run(HandsetPlugin.java:49)
+	at org.eclipse.andmore.android.AndroidPlugin$2.done(AndroidPlugin.java:180)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:42)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:99)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:144)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:694)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:72)
+2017-04-27 09:41:12,079 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,080 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,080 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,081 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,081 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,081 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,081 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,082 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,082 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,083 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,084 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,085 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,085 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,085 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,085 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,086 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,086 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,086 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,086 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:12,087 [main] ERROR Studio for Android - Handler could not be instanced(PLUGIN=org.eclipse.sequoyah.device.framework;ERROR=202)
+2017-04-27 09:41:19,798 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2017-04-27 09:41:19,801 [Worker-2] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2017-04-27 09:41:20,088 [Worker-1] ERROR class org.eclipse.andmore.android.DDMSFacade - Error executing shell command getprop at device LGE975e1140d94
+com.android.ddmlib.AdbCommandRejectedException: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+	at com.android.ddmlib.AdbHelper.setDevice(AdbHelper.java:861)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:450)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:381)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:352)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:613)
+	at org.eclipse.andmore.android.DDMSFacade.executeShellCmd(DDMSFacade.java:814)
+	at org.eclipse.andmore.android.DDMSFacade.execRemoteApp(DDMSFacade.java:781)
+	at org.eclipse.andmore.android.DDMSFacade.getDeviceProperties(DDMSFacade.java:851)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.createInstance(HandsetPlugin.java:126)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.access$0(HandsetPlugin.java:122)
+	at org.eclipse.andmore.android.handset.HandsetPlugin$2.run(HandsetPlugin.java:61)
+	at org.eclipse.andmore.android.AndmoreEventManager$7.run(AndmoreEventManager.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.andmore.android.AndmoreEventManager.fireEvent(AndmoreEventManager.java:169)
+	at org.eclipse.andmore.android.DDMSFacade.deviceConnected(DDMSFacade.java:342)
+	at org.eclipse.andmore.android.DDMSFacade$1.run(DDMSFacade.java:228)
+	at org.eclipse.andmore.android.AndroidPlugin$2.done(AndroidPlugin.java:180)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:42)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:99)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:144)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:694)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:72)
+2017-04-27 09:41:20,105 [Worker-1] ERROR class org.eclipse.andmore.android.DDMSFacade - Error executing shell command getprop at device LGE975e1140d94
+com.android.ddmlib.AdbCommandRejectedException: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+	at com.android.ddmlib.AdbHelper.setDevice(AdbHelper.java:861)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:450)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:381)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:352)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:613)
+	at org.eclipse.andmore.android.DDMSFacade.executeShellCmd(DDMSFacade.java:814)
+	at org.eclipse.andmore.android.DDMSFacade.execRemoteApp(DDMSFacade.java:781)
+	at org.eclipse.andmore.android.DDMSFacade.getDeviceProperties(DDMSFacade.java:851)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.createInstance(HandsetPlugin.java:126)
+	at org.eclipse.andmore.android.handset.HandsetPlugin.access$0(HandsetPlugin.java:122)
+	at org.eclipse.andmore.android.handset.HandsetPlugin$1.run(HandsetPlugin.java:49)
+	at org.eclipse.andmore.android.AndroidPlugin$2.done(AndroidPlugin.java:180)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:42)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:99)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:144)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:694)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:72)
+2017-04-27 09:43:30,051 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2017-04-27 09:43:30,160 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://69.fwk624475142/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:/home/gonzalal/.p2/pool/plugins/org.eclipse.andmore.android.common_0.5.0.201605181018.jar
+2017-04-27 09:43:30,164 [main] DEBUG Studio for Android - JDBC Driver Path:/home/gonzalal/eclipse/android-neon/eclipse/configuration/org.eclipse.osgi/69/0/.cp/res/androidjdbc.jar
+2017-04-27 09:43:30,165 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://69.fwk624475142/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:/home/gonzalal/.p2/pool/plugins/org.eclipse.andmore.android.common_0.5.0.201605181018.jar
+2017-04-27 09:43:30,165 [main] DEBUG Studio for Android - JDBC Driver Path:/home/gonzalal/eclipse/android-neon/eclipse/configuration/org.eclipse.osgi/69/0/.cp/res/androidjdbc.jar
+2017-04-27 09:43:30,214 [main] INFO  Studio for Android - Created a JDBC driver instance at Data Tools.
+2017-04-27 09:43:30,233 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2017-04-27 09:43:30,243 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2017-04-27 09:43:30,247 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2017-04-27 09:43:32,272 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2017-04-27 09:43:32,313 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2017-04-27 09:43:32,314 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2017-04-27 09:43:32,314 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
